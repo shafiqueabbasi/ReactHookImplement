@@ -9,8 +9,6 @@ function HookCounterFour() {
             id: items.length,
             value: Math.floor(Math.random() * 10) + 1
         }])
-        console.log(items, "123")
-        
     }
     
     return (
@@ -20,9 +18,9 @@ function HookCounterFour() {
 
             <ul>
                 {
-                    items.map(item => {
+                    items.map(item => (
                         <li key={item.id}>{item.value}</li>
-                    })
+                    ))
                 }
             </ul>
         </div>
