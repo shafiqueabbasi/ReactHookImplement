@@ -1,21 +1,40 @@
 import './App.css';
-import { ClassCounter, HookCounter, HookCounterTwo, HookCounter3, HookCounterFour, ClassCounterTwo, HookCounterOne, ClassCounterOne } from './components/index';
+import { ClassCounter, 
+  HookCounter, 
+  HookCounterTwo, 
+  HookCounter3, 
+  HookCounterFour, 
+  ClassCounterTwo, 
+  HookCounterOne, 
+  ClassCounterOne,
+  HookMouse,
+  MouseContainer,
+  ClassMouse,
+  IntervalClassCounter,
+  IntervalHookCounter,
+  DataFetching,
+} from './components/index';
 
 function App() {
 
   return (
     <div className="App">
-      <br/>
-      {/* <div className='App-header'> */}
-      {/* <ClassCounter /> */}
-      {/* <HookCounter /> */}
-      {/* <HookCounterTwo /> */}
-      {/* <HookCounter3 /> */}
-      {/* <HookCounterFour /> */}
-      {/* <ClassCounterTwo /> */}
-      <HookCounterOne />
-      {/* <ClassCounterOne /> */}
-      {/* </div> */}
+      <div className='App-header'>
+        {/* <ClassCounter /> */}
+        {/* <HookCounter /> */}
+        {/* <HookCounterTwo /> */}
+        {/* <HookCounter3 /> */}
+        {/* <HookCounterFour /> */}
+        {/* <ClassCounterTwo /> */}
+        {/* <HookCounterOne /> */}
+        {/* <ClassCounterOne /> */}
+        {/* <HookMouse /> */}
+        {/* <MouseContainer /> */}
+        {/* <ClassMouse /> */}
+        {/* <IntervalClassCounter /> */}
+        {/* <IntervalHookCounter /> */}
+        <DataFetching />
+      </div>
     </div>
   );
 }

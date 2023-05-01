@@ -23,4 +23,4 @@ function HookCounterOne() {
   )
 }
 
-export default HookCounterOne
+export default HookCounterOne;
