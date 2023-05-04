@@ -1,22 +1,24 @@
 import React from 'react';
 import './App.css';
-// import { ClassCounter, 
-//   HookCounter, 
-//   HookCounterTwo, 
-//   HookCounter3, 
-//   HookCounterFour, 
-//   ClassCounterTwo, 
-//   HookCounterOne, 
-//   ClassCounterOne,
-//   HookMouse,
-//   MouseContainer,
-//   ClassMouse,
-//   IntervalClassCounter,
-//   IntervalHookCounter,
-//   DataFetching,
-//   DataFetchingP2,
-//   DataFetchingP3,
-// } from './components/index';
+import { 
+  ClassCounter, 
+  HookCounter, 
+  HookCounterTwo, 
+  HookCounter3, 
+  HookCounterFour, 
+  ClassCounterTwo, 
+  HookCounterOne, 
+  ClassCounterOne,
+  HookMouse,
+  MouseContainer,
+  ClassMouse,
+  IntervalClassCounter,
+  IntervalHookCounter,
+  DataFetching,
+  DataFetchingP2,
+  DataFetchingP3,
+  ReducerFile,
+} from './components/index';
 import ComponentFileC from './components/childComponents/ComponentFileC';
 
 export const UserContext = React.createContext()
@@ -44,11 +46,13 @@ function App() {
         {/* <DataFetchingP2 /> */}
         {/* <DataFetchingP3 /> */}
 
-        <UserContext.Provider value={'Shafique Abbasi'}>
+        {/* <UserContext.Provider value={'Shafique Abbasi'}>
           <ChannelContext.Provider value={'Codevolution'}>
             <ComponentFileC />
           </ChannelContext.Provider>
-        </UserContext.Provider>
+        </UserContext.Provider> */}
+
+        <ReducerFile />
       </div>
     </div>
   );

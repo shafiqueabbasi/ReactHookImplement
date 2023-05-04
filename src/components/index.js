@@ -14,6 +14,7 @@ import IntervalHookCounter from './functionComponents/IntervalHookCounter';
 import DataFetching from './functionComponents/DataFetching';
 import DataFetchingP2 from './functionComponents/DataFetchingP2';
 import DataFetchingP3 from './functionComponents/DataFetchingP3';
+import ReducerFile from './functionComponents/ReducerFile';
 
 export {
     ClassCounter,
@@ -31,5 +32,6 @@ export {
     IntervalHookCounter,
     DataFetching,
     DataFetchingP2,
-    DataFetchingP3
+    DataFetchingP3,
+    ReducerFile,
 }
