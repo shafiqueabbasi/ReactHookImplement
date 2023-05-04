@@ -13,6 +13,8 @@ import { ClassCounter,
   IntervalClassCounter,
   IntervalHookCounter,
   DataFetching,
+  DataFetchingP2,
+  DataFetchingP3,
 } from './components/index';
 
 function App() {
@@ -33,8 +35,9 @@ function App() {
         {/* <ClassMouse /> */}
         {/* <IntervalClassCounter /> */}
         {/* <IntervalHookCounter /> */}
-        <DataFetching />
-        <h1>new branch create and check</h1>
+        {/* <DataFetching /> */}
+        {/* <DataFetchingP2 /> */}
+        <DataFetchingP3 />
       </div>
     </div>
   );

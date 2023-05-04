@@ -12,6 +12,8 @@ import ClassMouse from './classComponents/ClassMouse';
 import IntervalClassCounter from './classComponents/IntervalClassCounter';
 import IntervalHookCounter from './functionComponents/IntervalHookCounter';
 import DataFetching from './functionComponents/DataFetching';
+import DataFetchingP2 from './functionComponents/DataFetchingP2';
+import DataFetchingP3 from './functionComponents/DataFetchingP3';
 
 export {
     ClassCounter,
@@ -28,4 +30,6 @@ export {
     IntervalClassCounter,
     IntervalHookCounter,
     DataFetching,
+    DataFetchingP2,
+    DataFetchingP3
 }

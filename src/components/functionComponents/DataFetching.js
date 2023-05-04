@@ -1,3 +1,4 @@
+// React Hooks Tutorial - 12 - Fetching data with useEffect Part 1
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 
@@ -21,11 +22,11 @@ function DataFetching() {
         <div>
             <input  type='text' value={id} onChange={e => setId(e.target.value)} />
             <div>{posts.title}</div>
-            {/* <ul>
+            <ul>
                 {
                     posts.map(post => <li key={post.id}>{post.title}</li>)
                 }
-            </ul> */}
+            </ul>
         </div>
     )
 }
