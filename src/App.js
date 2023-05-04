@@ -1,21 +1,26 @@
+import React from 'react';
 import './App.css';
-import { ClassCounter, 
-  HookCounter, 
-  HookCounterTwo, 
-  HookCounter3, 
-  HookCounterFour, 
-  ClassCounterTwo, 
-  HookCounterOne, 
-  ClassCounterOne,
-  HookMouse,
-  MouseContainer,
-  ClassMouse,
-  IntervalClassCounter,
-  IntervalHookCounter,
-  DataFetching,
-  DataFetchingP2,
-  DataFetchingP3,
-} from './components/index';
+// import { ClassCounter, 
+//   HookCounter, 
+//   HookCounterTwo, 
+//   HookCounter3, 
+//   HookCounterFour, 
+//   ClassCounterTwo, 
+//   HookCounterOne, 
+//   ClassCounterOne,
+//   HookMouse,
+//   MouseContainer,
+//   ClassMouse,
+//   IntervalClassCounter,
+//   IntervalHookCounter,
+//   DataFetching,
+//   DataFetchingP2,
+//   DataFetchingP3,
+// } from './components/index';
+import ComponentFileC from './components/childComponents/ComponentFileC';
+
+export const UserContext = React.createContext()
+export const ChannelContext = React.createContext()
 
 function App() {
 
@@ -37,7 +42,13 @@ function App() {
         {/* <IntervalHookCounter /> */}
         {/* <DataFetching /> */}
         {/* <DataFetchingP2 /> */}
-        <DataFetchingP3 />
+        {/* <DataFetchingP3 /> */}
+
+        <UserContext.Provider value={'Shafique Abbasi'}>
+          <ChannelContext.Provider value={'Codevolution'}>
+            <ComponentFileC />
+          </ChannelContext.Provider>
+        </UserContext.Provider>
       </div>
     </div>
   );
@@ -45,4 +56,4 @@ function App() {
 
 export default App;
 
-// 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 github code generated use for 1 month today 1 May
+// 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 github code generated use for 1 month today 1 May
