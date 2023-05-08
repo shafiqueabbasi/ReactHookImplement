@@ -15,7 +15,7 @@ const reducer = (state, action) =>{
     }
 }
 
-function ReducerFile() {
+function CounterReducerFile() {
 
     const [count, dispatch] = useReducer(reducer, initialState)
 
@@ -29,4 +29,4 @@ function ReducerFile() {
   )
 }
 
-export default ReducerFile
+export default CounterReducerFile

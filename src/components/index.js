@@ -14,7 +14,17 @@ import IntervalHookCounter from './functionComponents/IntervalHookCounter';
 import DataFetching from './functionComponents/DataFetching';
 import DataFetchingP2 from './functionComponents/DataFetchingP2';
 import DataFetchingP3 from './functionComponents/DataFetchingP3';
-import ReducerFile from './functionComponents/ReducerFile';
+import CounterReducerFile from './functionComponents/CounterReducerFile';
+import CounterReducerFile2 from './functionComponents/CounterReducerFile2';
+import CounterReducerFile3 from './functionComponents/CounterReducerFile3';
+import DataFetchingAndHandling from './functionComponents/DataFetchingAndHandling';
+import DataFetchingAndHandling2 from './functionComponents/DataFetchingAndHandling2';
+import Counter from './memoComponent/Counter';
+import FocusInput from './functionComponents/FocusInput';
+import ClassTimer from './classComponents/ClassTimer';
+import HookTimer from './functionComponents/HookTimer';
+import DocTitleOne from './functionComponents/DocTitleOne';
+import DocTitleTwo from './functionComponents/DocTitleTwo';
 
 export {
     ClassCounter,
@@ -33,5 +43,15 @@ export {
     DataFetching,
     DataFetchingP2,
     DataFetchingP3,
-    ReducerFile,
+    CounterReducerFile,
+    CounterReducerFile2,
+    CounterReducerFile3,
+    DataFetchingAndHandling,
+    DataFetchingAndHandling2,
+    Counter,
+    FocusInput,
+    ClassTimer,
+    HookTimer,
+    DocTitleOne,
+    DocTitleTwo,
 }
